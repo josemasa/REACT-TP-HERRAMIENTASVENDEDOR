@@ -25,12 +25,13 @@ code {
 
 html,
 body {
+  padding: 0px 10px 0px 10px;
   height: 100%;
   width: 100%;
   margin: 0;
-  line-height: 0.5;
+  line-height: normal;
   color: #121212;
-  background-color: #1d2129;
+  background-color: #494d55;
 }
 
 .contenedor {

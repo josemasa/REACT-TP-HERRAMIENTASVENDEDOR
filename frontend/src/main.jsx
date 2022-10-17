@@ -11,7 +11,7 @@ import Root, {
   action as rootAction,
 } from "./components/AgendaContactos/root";
 import { action as destroyAction } from "./routes/destroy";
-import HomePage from "./pages/HomePage";
+import Contactos from "./pages/contactos";
 import QS from "./pages/qs";
 import EditContact, { action as editAction } from "./routes/edit";
 import Index from "./routes/index";
@@ -23,8 +23,8 @@ const router = createBrowserRouter([
     element: <Login />,
   },
   {
-    path: "home",
-    element: <HomePage />,
+    path: "contactos",
+    element: <Contactos />,
     errorElement: <ErrorPage />,
     loader: rootLoader,
     action: rootAction,

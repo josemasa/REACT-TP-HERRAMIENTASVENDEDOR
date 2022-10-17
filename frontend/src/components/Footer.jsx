@@ -1,20 +1,26 @@
 import React from "react";
 import styled from "styled-components";
-
+import logo from "../../img/sale-tag-neon-signboard-vector.jpg";
 function Footer() {
   return (
     <>
       <FOOTER>
-        <div>
-          <h1>Curso fullstack </h1>
-          <ul>
-            <li>jose marcelo salas </li>
-            <br />
-            <li>Pablo Matias Sanchez</li>
-            <br />
-            <li>Cristian Adrian Solohaga </li>
-          </ul>
+        <div className="conteinerfooter">
+          <div>
+            <h1>Curso fullstack </h1>
+            <ul>
+              <li>jose marcelo salas </li>
+
+              <li>Pablo Matias Sanchez</li>
+
+              <li>Cristian Adrian Solohaga </li>
+            </ul>
+          </div>
+          <div>
+            <img src={logo} alt="" />
+          </div>
         </div>
+
         <small>
           &copy; 2022 <b>Chespy - Programador Full Stack</b> - Todos los
           Derechos Reservados.
@@ -36,5 +42,14 @@ const FOOTER = styled.div`
   }
   small {
     font-size: 15px;
+  }
+  .conteinerfooter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  img {
+    width: 150px;
+    margin-right: 6rem;
   }
 `;

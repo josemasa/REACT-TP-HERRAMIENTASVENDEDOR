@@ -33,7 +33,7 @@ const Login = ({ setUserState }) => {
 
 */
     if (user.username == "cristian" && user.password == "cristian") {
-      navigate("/home");
+      navigate("/contactos");
     } else {
       alert("falló");
     }

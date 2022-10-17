@@ -1,5 +1,5 @@
 .button_common {
-    background-color: olivedrab;
+    background-color: #494d55;
     color: white;
     padding: 15px 30px;
     border: none;
@@ -23,11 +23,12 @@ img {
 }
 
 .description {
+    margin-bottom: 20px;
     padding: 5%;
     margin-left: 20px;
     margin-top: 15px;
     width: auto;
-    max-width: 700px;
+    max-width: 600px;
     border-radius: 20px;
     border: 2px solid lightgrey;
     outline: none;
