@@ -21,7 +21,7 @@ function BasicExample() {
               <Nav className="me-auto">
                 <Nav.Link>
                   <Link
-                    to={"/"}
+                    to={"/home"}
                     style={{ textDecoration: "none", color: "black" }}
                   >
                     INICIO

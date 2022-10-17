@@ -1,6 +1,14 @@
+.loginconteiner {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #1d2129;
+}
+
 .login {
+    margin-top: 15px;
+    margin-left: 15px;
     width: 400px;
-    background: #fff;
+    background: #0dcaf0;
     border: 1px solid #dddfe2;
     box-shadow: 0 2px 4px rgb(0 0 10 / 64%), 0 8px 16px rgb(0 10 0 / 34%);
     border-radius: 8px;
@@ -9,7 +17,7 @@
     text-align: center;
 }
 
-.login > form input {
+.login>form input {
     border-radius: 20px;
     border: 2px solid lightgrey;
     outline: none;
