@@ -1,10 +1,16 @@
 # react-animales
 
-# ----------BACKEND---------
+# ----------DEPENDENCIAS USADAS BACKEND---------
 
 cd backend
 
-# -------FRONTEND--------
+npm i -y
+
+npm i express
+
+npm i nodemon
+
+# -------DEPENDENCIAS USADAS FRONTEND--------
 
 cd frontend
 
