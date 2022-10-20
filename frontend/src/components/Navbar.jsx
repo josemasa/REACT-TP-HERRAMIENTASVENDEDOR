@@ -11,7 +11,17 @@ function BasicExample() {
         <Container>
           <Nav>
             <Navbar.Brand href="/home">
-              <img src={comers} alt="" />{" "}
+              <div className="funciones4">
+                <div>
+                  <img src={comers} alt="" />{" "}
+                </div>
+                <div className="f5">
+                  <p>
+                    Robert Collier: "El éxito es la suma de pequeños esfuerzos,
+                    repetidos día tras día"
+                  </p>
+                </div>
+              </div>
             </Navbar.Brand>
           </Nav>
 
@@ -136,5 +146,20 @@ const NAVBAR = styled.div`
   }
   h1 {
     margin: 0% 0% 0% 10%;
+  }
+  .funciones4 {
+    border: 2px solid black;
+    border-radius: 20px;
+
+    background-color: #0a8bc5;
+    padding: 5px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    .f5 {
+      max-width: 200px;
+      padding: 3px;
+    }
   }
 `;

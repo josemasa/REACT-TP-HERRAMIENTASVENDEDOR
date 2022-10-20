@@ -2,6 +2,8 @@
 
 # ----------BACKEND---------
 
+cd backend
+
 # -------FRONTEND--------
 
 cd frontend
