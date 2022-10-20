@@ -3,6 +3,11 @@
 
 modulo.exports = class HelloController {
   static async hello(req, res, next) {
+
+    return res.json({
+      estado: true,
+      mensaje: "Hello"
+    })
     try {
 
     } catch {
