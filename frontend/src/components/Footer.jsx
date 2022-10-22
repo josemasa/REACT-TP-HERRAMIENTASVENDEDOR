@@ -7,9 +7,9 @@ function Footer() {
       <FOOTER>
         <div className="conteinerfooter">
           <div>
-            <h1>Curso fullstack </h1>
+            <h1>Curso Fullstack </h1>
             <ul>
-              <li>jose marcelo salas </li>
+              <li>José Marcelo Salas </li>
 
               <li>Pablo Matias Sanchez</li>
 
