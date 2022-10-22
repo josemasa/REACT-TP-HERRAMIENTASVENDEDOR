@@ -60,7 +60,7 @@ function BasicExample() {
                       to={"/qs"}
                       style={{ textDecoration: "none", color: "black" }}
                     >
-                      quienes somos
+                      QUIENES SOMOS
                     </Link>
                   </Nav.Link>
                   <Nav.Link className="funciones1">
@@ -68,7 +68,7 @@ function BasicExample() {
                       to={""}
                       style={{ textDecoration: "none", color: "black" }}
                     >
-                      contactanos
+                      CONTACTANOS
                     </Link>
                   </Nav.Link>
                 </Nav>
