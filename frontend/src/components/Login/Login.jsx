@@ -72,12 +72,12 @@ const Login = ({ setUserState }) => {
         <div className={basestyle.description}>
           <h1>DESCRIPCION</h1>
           <p>
-            Esta es una aplicacion diseñada para facilitar la vida de un
-            vendedor, cuenta con un modulo en donde podra tener un registro de
-            sus clientes , un modulo donde podra ver sus productos con fotos y
-            una descripcion de los mismo , un black de notas donde podra
-            registrar sus tareas pendientes. pronto contaremos con una version
-            movil.
+            Esta es una aplicación diseñada para facilitar la vida de un
+            vendedor, cuenta con un módulo en donde podrá tener un registro de
+            sus clientes , un módulo donde podrá ver sus productos con fotos y
+            una descripción de los mismo, un block de notas donde podrá
+            registrar sus tareas pendientes. Pronto contaremos con una versión
+            móvil.
           </p>
           <img src={logo} alt="" />
         </div>
