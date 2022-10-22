@@ -15,12 +15,6 @@ function BasicExample() {
                 <div>
                   <img src={comers} alt="" />{" "}
                 </div>
-                <div className="f5">
-                  <p>
-                    Robert Collier: "El éxito es la suma de pequeños esfuerzos,
-                    repetidos día tras día"
-                  </p>
-                </div>
               </div>
             </Navbar.Brand>
           </Nav>
@@ -66,7 +60,7 @@ function BasicExample() {
                       to={"/qs"}
                       style={{ textDecoration: "none", color: "black" }}
                     >
-                      quienes somos
+                      QUIENES SOMOS
                     </Link>
                   </Nav.Link>
                   <Nav.Link className="funciones1">
@@ -74,7 +68,7 @@ function BasicExample() {
                       to={""}
                       style={{ textDecoration: "none", color: "black" }}
                     >
-                      contactanos
+                      CONTACTANOS
                     </Link>
                   </Nav.Link>
                 </Nav>
@@ -157,9 +151,5 @@ const NAVBAR = styled.div`
     display: flex;
     flex-direction: row;
     align-items: center;
-    .f5 {
-      max-width: 200px;
-      padding: 3px;
-    }
   }
 `;
