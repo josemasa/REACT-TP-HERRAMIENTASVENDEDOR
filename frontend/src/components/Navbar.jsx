@@ -65,7 +65,7 @@ function BasicExample() {
                   </Nav.Link>
                   <Nav.Link className="funciones1">
                     <Link
-                      to={""}
+                      to={"/contactanos"}
                       style={{ textDecoration: "none", color: "black" }}
                     >
                       CONTACTANOS
