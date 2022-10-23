@@ -10,7 +10,7 @@ function qs() {
       <div className="root">
         <Navbar />
         <Mave>
-        <Contactanos />
+          <Contactanos />
         </Mave>
         <Footer />
       </div>
@@ -22,8 +22,12 @@ export default qs;
 
 // Styles
 const Mave = styled.div`
-    display:flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5% 0% 5% 0%;
+  border: 2px black solid;
+  border-radius: 20%;
+  padding: 10px;
+  background-color: #0dcaf0;
 `;
-

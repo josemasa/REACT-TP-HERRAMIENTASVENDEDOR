@@ -23,3 +23,5 @@ npm install --save styled-components
 npm i axios
 
 npm run dev
+
+npm install @emailjs/browser --save
