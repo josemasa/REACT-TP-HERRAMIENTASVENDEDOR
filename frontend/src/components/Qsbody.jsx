@@ -3,7 +3,7 @@ import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import styled from "styled-components";
 import jms from "../../img/jose.jpg";
-import cris from "../../img/cristian.jpeg";
+import cris from "../../img/cristian.jpg";
 import matu from "../../img/matu.jpg";
 
 const Qsbody = () => {

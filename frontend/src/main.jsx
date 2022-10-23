@@ -13,6 +13,7 @@ import Root, {
 import { action as destroyAction } from "./routes/destroy";
 import Contactos from "./pages/contactos";
 import QS from "./pages/qs";
+import Cont from "./pages/contactanos";
 import EditContact, { action as editAction } from "./routes/edit";
 import Index from "./routes/index";
 import Login from "./components/Login/Login";
@@ -51,6 +52,10 @@ const router = createBrowserRouter([
   {
     path: "qs",
     element: <QS />,
+  },
+  {
+    path: "contactanos",
+    element: <Cont />,
   },
 ]);
 
