@@ -40,7 +40,7 @@ export default function Contact() {
 
         <div>
           <Form action="edit">
-            <button type="submit">Edit</button>
+            <button type="submit">GUARDAR</button>
           </Form>
           <Form
             method="post"
