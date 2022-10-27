@@ -16,7 +16,8 @@ import QS from "./pages/qs";
 import EditContact, { action as editAction } from "./routes/edit";
 import Index from "./routes/index";
 import Login from "./components/Login/Login";
-
+import Prod from "./pages/productos";
+import Reco from "./pages/recordatorios";
 import Contactanos from "./pages/contactanos";
 
 const router = createBrowserRouter([
@@ -51,13 +52,21 @@ const router = createBrowserRouter([
     ],
   },
   {
+    path: "recordatorios",
+    element: <Reco />,
+  },
+  {
+    path: "productos",
+    element: <Prod />,
+  },
+  {
     path: "qs",
     element: <QS />,
   },
   {
     path: "contactanos",
     element: <Contactanos />,
-  }
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(

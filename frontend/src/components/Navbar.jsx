@@ -30,7 +30,7 @@ function BasicExample() {
                   <Nav>
                     <Nav.Link className="funciones2">
                       <Link
-                        to={""}
+                        to={"/recordatorios"}
                         style={{ textDecoration: "none", color: "black" }}
                       >
                         RECORDATORIOS
@@ -38,7 +38,7 @@ function BasicExample() {
                     </Nav.Link>
                     <Nav.Link className="funciones2">
                       <Link
-                        to={""}
+                        to={"/productos"}
                         style={{ textDecoration: "none", color: "black" }}
                       >
                         PRODUCTOS
