@@ -19,24 +19,7 @@ const Qsbody = () => {
             </Card.Body>
           </Card>
         </div>
-        <div className="div2">
-          <Card style={{ width: "18rem", height: "22rem" }}>
-            <Card.Img variant="top" src={matu} />
-            <Card.Body>
-              <Card.Title>Pablo Matias Sanchez</Card.Title>
-              <Card.Text>Programador FullSTack en proceso</Card.Text>
-            </Card.Body>
-          </Card>
-        </div>
-        <div className="div2">
-          <Card style={{ width: "18rem", height: "22rem" }}>
-            <Card.Img variant="top" src={cris} />
-            <Card.Body>
-              <Card.Title>Cristian Adrian Solohaga </Card.Title>
-              <Card.Text>Programador FullSTack en proceso</Card.Text>
-            </Card.Body>
-          </Card>
-        </div>
+
       </div>
     </QS>
   );

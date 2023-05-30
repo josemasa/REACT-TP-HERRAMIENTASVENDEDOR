@@ -32,7 +32,7 @@ const Login = ({ setUserState }) => {
     });
 
 */
-    if (user.username == "cristian" && user.password == "cristian") {
+    if (user.username == "marcelo" && user.password == "marcelo") {
       navigate("/contactos");
     } else {
       alert("falló");
